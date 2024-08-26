@@ -1,0 +1,254 @@
+/* Global */
+:root {
+  background-color: aliceblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 15rem;
+  max-height: 25rem;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  background-color: aquamarine;
+}
+
+button {
+  border-radius: 10%;
+}
+
+/* header */
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.header__button {
+  text-align: center;
+  padding: 0;
+  margin-left: 0.5rem;
+  border: none;
+  background-color: transparent;
+}
+
+.header__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.header__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* navbar */
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.nav__button {
+  text-align: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.nav__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.nav__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* section: cal__result */
+.cal__result {
+  text-align: right;
+  background-color: aliceblue;
+}
+
+.cal__result p {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 30px;
+}
+
+/* section: first__row */
+.first__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  padding: 0.1rem;
+}
+
+.first__button {
+  text-align: center;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.first__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.first__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* section: second__row */
+.second__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
+}
+
+.second__button {
+  text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
+}
+
+.second__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.second__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* section: third__row */
+.third__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
+}
+
+.third__button {
+  text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
+}
+
+.third__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.third__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* section: fourth__row */
+.fourth__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
+}
+
+.fourth__button {
+  text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
+}
+
+.fourth__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.fourth__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* section: fifth__row */
+.fifth__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
+}
+
+.fifth__button {
+  text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
+}
+
+.fifth__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.fifth__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* section: sixth__row */
+.sixth__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
+}
+
+.sixth__button {
+  text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
+}
+
+.sixth__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.sixth__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* section: seventh__row */
+.seventh__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
+}
+
+.seventh__button {
+  text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
+}
+
+.seventh__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.seventh__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.equals {
+  border: 0.1rem solid rgb(17, 155, 51);
+  background-color: rgb(17, 155, 51);
+}
+
+.equals:hover {
+  background-color: rgb(10, 97, 32);
+}
+
+.equals:active {
+  box-shadow: inset -2px -2px 3px rgb(10, 97, 32), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
